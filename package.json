@@ -1,0 +1,15 @@
+{
+  "name": "docker_web_app",
+  "version": "1.0.0",
+  "license": "Apache",
+  "repository": "git+https://github.com/expressjs/express.git",
+  "description": "Node.js on Docker",
+  "author": "Zachary Conger <zachary@econger.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
